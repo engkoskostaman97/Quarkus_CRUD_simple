@@ -80,4 +80,7 @@ https://www.mastertheboss.com/soa-cloud/quarkus/how-to-generate-jax-rs-crud-appl
 
 Testing PostMant:
 
+![image](https://github.com/engkoskostaman97/Quarkus_CRUD_simple/assets/110719940/98042a78-e99f-4582-93e6-8220efac0d39)
+
+
 
