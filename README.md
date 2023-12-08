@@ -78,6 +78,11 @@ http://localhost:8080/q/swagger-ui/
 Recomded Belajar Materi in link:
 https://www.mastertheboss.com/soa-cloud/quarkus/how-to-generate-jax-rs-crud-application-in-quarkus-using-panache/
 
+Database conection to Postgresql:
+
+![image](https://github.com/engkoskostaman97/Quarkus_CRUD_simple/assets/110719940/e5e16f89-e1be-4284-98bc-9aaec4140be8)
+
+
 Testing PostMant:
 
 ![image](https://github.com/engkoskostaman97/Quarkus_CRUD_simple/assets/110719940/98042a78-e99f-4582-93e6-8220efac0d39)
