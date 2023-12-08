@@ -72,7 +72,8 @@ Buat entitas JPA pertama Anda
 [Bagian Hibernasi dengan Panache terkait...](https://quarkus.io/guides/hibernate-orm-panache)
 
 
-
+#Akses Swagger Ui link to :
+http://localhost:8080/q/swagger-ui/
 
 Recomded Belajar Materi in link:
 https://www.mastertheboss.com/soa-cloud/quarkus/how-to-generate-jax-rs-crud-application-in-quarkus-using-panache/
