@@ -98,6 +98,12 @@ Testing PostMant:
 ![image](https://github.com/engkoskostaman97/Quarkus_CRUD_simple/assets/110719940/bf4cd2f0-da50-4058-bc1a-405247731937)
 
 
+- DELETE
+
+![image](https://github.com/engkoskostaman97/Quarkus_CRUD_simple/assets/110719940/5bc27c37-6049-46e0-94a0-0e16478ba88f)
+
+
+
 
 
 
