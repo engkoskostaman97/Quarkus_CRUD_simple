@@ -1,70 +1,78 @@
 # crud-quarkus
 
-This project uses Quarkus, the Supersonic Subatomic Java Framework.
-
-If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
+Proyek ini menggunakan Quarkus, Kerangka Java Subatomik Supersonik.
+Jika Anda ingin mempelajari lebih lanjut tentang Quarkus, silakan kunjungi situs webnya: https://quarkus.io/ .
 
 ## Running the application in dev mode
 
-You can run your application in dev mode that enables live coding using:
-```shell script
-./mvnw compile quarkus:dev
+
+Anda dapat menjalankan aplikasi Anda dalam mode pengembangan yang memungkinkan pengkodean langsung menggunakan:
+``` skrip cangkang
+./mvnw kompilasi quarkus:dev
 ```
 
-> **_NOTE:_**  Quarkus now ships with a Dev UI, which is available in dev mode only at http://localhost:8080/q/dev/.
+> **_NOTE:_** Quarkus kini dikirimkan dengan UI Pengembang, yang tersedia dalam mode pengembang hanya di http://localhost:8080/q/dev/.
 
 ## Packaging and running the application
 
-The application can be packaged using:
-```shell script
-./mvnw package
+Aplikasi dapat dikemas menggunakan:
+``` skrip cangkang
+paket ./mvnw
 ```
-It produces the `quarkus-run.jar` file in the `target/quarkus-app/` directory.
-Be aware that it’s not an _über-jar_ as the dependencies are copied into the `target/quarkus-app/lib/` directory.
+Ini menghasilkan file `quarkus-run.jar` di direktori `target/quarkus-app/`.
+Perlu diketahui bahwa ini bukan _über-jar_ karena dependensinya disalin ke direktori `target/quarkus-app/lib/`.
 
-The application is now runnable using `java -jar target/quarkus-app/quarkus-run.jar`.
+Aplikasi sekarang dapat dijalankan menggunakan `java -jar target/quarkus-app/quarkus-run.jar`.
 
-If you want to build an _über-jar_, execute the following command:
-```shell script
-./mvnw package -Dquarkus.package.type=uber-jar
+Jika Anda ingin membuat _über-jar_, jalankan perintah berikut:
+``` skrip cangkang
+./mvnw paket -Dquarkus.package.type=uber-jar
 ```
 
-The application, packaged as an _über-jar_, is now runnable using `java -jar target/*-runner.jar`.
+Aplikasi, yang dikemas sebagai _über-jar_, kini dapat dijalankan menggunakan `java -jar target/*-runner.jar`.
 
 ## Creating a native executable
 
-You can create a native executable using: 
-```shell script
-./mvnw package -Dnative
+Anda dapat membuat executable asli menggunakan:
+``` skrip cangkang
+./mvnw paket -Dnative
 ```
 
-Or, if you don't have GraalVM installed, you can run the native executable build in a container using: 
-```shell script
-./mvnw package -Dnative -Dquarkus.native.container-build=true
+Atau, jika Anda belum menginstal GraalVM, Anda dapat menjalankan build asli yang dapat dieksekusi dalam sebuah container menggunakan:
+``` skrip cangkang
+./mvnw paket -Dnative -Dquarkus.native.container-build=true
 ```
 
-You can then execute your native executable with: `./target/crud-quarkus-1.0.0-SNAPSHOT-runner`
+Anda kemudian dapat mengeksekusi executable asli Anda dengan: `./target/crud-quarkus-1.0.0-SNAPSHOT-runner`
 
-If you want to learn more about building native executables, please consult https://quarkus.io/guides/maven-tooling.
+Jika Anda ingin mempelajari lebih lanjut tentang membuat executable asli, silakan lihat https://quarkus.io/guides/maven-tooling.
 
 ## Related Guides
 
-- Hibernate ORM with Panache ([guide](https://quarkus.io/guides/hibernate-orm-panache)): Simplify your persistence code for Hibernate ORM via the active record or the repository pattern
-- JDBC Driver - PostgreSQL ([guide](https://quarkus.io/guides/datasource)): Connect to the PostgreSQL database via JDBC
+- Hibernate ORM dengan Panache ([panduan](https://quarkus.io/guides/hibernate-orm-panache)): Sederhanakan kode persistensi Anda untuk Hibernate ORM melalui catatan aktif atau pola repositori
+- Driver JDBC - PostgreSQL ([panduan](https://quarkus.io/guides/datasource)): Hubungkan ke database PostgreSQL melalui JDBC
 
 ## Provided Code
 
 ### Hibernate ORM
 
-Create your first JPA entity
+Buat entitas JPA pertama Anda
 
-[Related guide section...](https://quarkus.io/guides/hibernate-orm)
+[Bagian panduan terkait...](https://quarkus.io/guides/hibernate-orm)
 
-[Related Hibernate with Panache section...](https://quarkus.io/guides/hibernate-orm-panache)
+[Bagian Hibernasi dengan Panache terkait...](https://quarkus.io/guides/hibernate-orm-panache)
 
 
 ### RESTEasy Reactive
 
-Easily start your Reactive RESTful Web Services
+Buat entitas JPA pertama Anda
 
-[Related guide section...](https://quarkus.io/guides/getting-started-reactive#reactive-jax-rs-resources)
+[Bagian panduan terkait...](https://quarkus.io/guides/hibernate-orm)
+
+[Bagian Hibernasi dengan Panache terkait...](https://quarkus.io/guides/hibernate-orm-panache)
+
+
+
+
+Recomded Belajar Materi in link:
+https://www.mastertheboss.com/soa-cloud/quarkus/how-to-generate-jax-rs-crud-application-in-quarkus-using-panache/
